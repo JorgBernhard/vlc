@@ -1,0 +1,331 @@
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Kdam Thmor Pro', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+.header {
+    position: static;
+    display: flex;
+    flex-direction: row;
+
+    width: 100vw;
+    height: 50px;
+    
+justify-content: space-between;
+}
+.Nome {
+    display: flex;
+    flex-direction: row;
+}
+
+.visual {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 60px;
+
+    color: rgb(230, 255, 2);
+
+    margin-left: 60px;
+    margin-right: 25px;
+    text-align: center;
+    align-items: center;
+
+}
+.life {
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    text-align: center;
+    color: rgb(230, 255, 2);
+
+    margin-right: 25px;
+    margin-top: 20px;
+   
+    
+    background-color: rebeccapurple;
+    transform: rotate(-45deg);
+    border-radius: 10px;
+    width: 110px;
+    height: 110px;
+    cursor: pointer;
+}
+  
+.life:hover {
+    animation-name: rotate;
+    animation-duration: 0.7s;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+.creations {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 60px;
+
+    color: rgb(230, 255, 2);
+
+}
+.links {display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+   justify-content:space-between;
+}
+.Home {
+    all: unset;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+
+    color: #ffff;
+    margin-right: 20px;
+    text-align: center;
+    justify-content: center;
+    background-color: rebeccapurple;
+    border-radius: 4px;
+    width: 80px;
+    height: 24px;
+    
+    cursor: pointer;
+}
+.Home:hover {
+    color: rgb(230, 255, 2);
+    transform: rotate(-5deg);
+}
+.Us {
+    all: unset;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+
+    color: #ffff;
+    margin-right: 20px;
+    text-align: center;
+    justify-content: center;
+    background-color: rebeccapurple;
+    border-radius: 4px;
+    width: 120px;
+    height: 24px;
+
+    cursor: pointer;
+}
+.Us:hover {
+    color: rgb(230, 255, 2);
+    transform: rotate(-5deg);
+}
+.Projects {
+    all: unset;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+
+    color: #ffff;
+    margin-right: 20px;
+    text-align: center;
+    justify-content: center;
+    background-color: rebeccapurple;
+    border-radius: 4px;
+    width: 100px;
+    height: 24px;
+
+    cursor: pointer;
+}
+.Projects:hover {
+    color: rgb(230, 255, 2);
+    transform: rotate(-5deg);
+}
+.Contact {
+    all: unset;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+
+    color: #ffff;
+    margin-right: 20px;
+    text-align: center;
+    justify-content: center;
+    background-color: rebeccapurple;
+    border-radius: 4px;
+    width: 100px;
+    height: 24px;
+
+    cursor: pointer;
+}
+.Contact:hover {
+    color: rgb(230, 255, 2);
+    transform: rotate(-5deg);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.slogan {
+    all: unset;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px; 
+
+    color: white;
+
+    margin-left: 150px;
+    margin-top: 110px;
+}
+.center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 60px;
+    color: rgb(255, 255, 255);
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+}
+.Art {
+    display: flex;
+    flex-direction: column;
+    
+    width: 23%;
+    height: 40%;
+    border: 1px solid rebeccapurple;
+    border-radius: 20px;
+    background-color: rgba(56, 16, 109, 0.4);
+    margin-right: 20px;
+    margin-top: 40px;
+}
+.Art h3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.Art h4 {
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 400;
+    align-items: center;
+    text-align: justify;
+    padding-left: 40px; 
+    padding-right: 40px;
+    margin-top: -20px;
+}
+
+.Design img {
+    width: 90%;
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.Front {
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 20px;
+
+    width: 23%;
+    height: 40%;
+    border: 1px solid rebeccapurple;
+    border-radius: 20px;
+    background-color: rgba(56, 16, 109, 0.4);
+    margin-right: 20px;
+}
+.Front h3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.Code img {
+    width: 90%;
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+.Front h4 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    text-align: justify;
+    padding-left: 40px; 
+    padding-right: 40px;
+    margin-top: -20px;
+
+}
+
+.Server {
+    display: flex;
+    flex-direction: column;
+    
+
+    width: 23%;
+    height: 40%;
+    border: 1px solid rebeccapurple;
+    border-radius: 20px;
+    background-color: rgba(56, 16, 109, 0.4);
+    margin-right: 20px;
+}
+.Server h3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.Server img {
+    width: 90%;
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+.Server h4 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    text-align: justify;
+    padding-left: 40px; 
+    padding-right: 40px;
+    margin-top: -20px;
+
+}
+
+.Office {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    
+
+    width: 23%;
+    height: 40%;
+    border: 1px solid rebeccapurple;
+    border-radius: 20px;
+    background-color: rgba(56, 16, 109, 0.4);
+}
+.Office h3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.Office h4 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    text-align: justify;
+    padding-left: 40px; 
+    padding-right: 40px;
+    margin-top: -20px;
+
+}
+.Meeting img {
+    width: 90%;
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+footer {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+}
